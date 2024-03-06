@@ -2,7 +2,7 @@
 
 'use strict';
 var grpc = require('grpc');
-var user_pb = require('./user_pb.js');
+var user_pb = require('../user_pb.js');
 
 function serialize_user_CreateUserRequest(arg) {
   if (!(arg instanceof user_pb.CreateUserRequest)) {
